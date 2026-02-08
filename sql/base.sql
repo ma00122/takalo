@@ -77,3 +77,4 @@ INSERT INTO historique_produit (product_id, action, user_id) VALUES
 (4, 'created', 1),
 (2, 'exchanged', 2),
 (3, 'exchanged', 3);
+jhjh
