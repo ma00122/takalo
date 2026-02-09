@@ -1,0 +1,93 @@
+==============================
+TRINÔME TAKALO-TAKALO — TO-DO LIST
+==============================
+
+👤 BOLTON — AUTHENTIFICATION & UTILISATEURS
+
+🗄️ BASE DE DONNÉES
+- Script create users table
+- Script create admin table
+- Index UNIQUE sur email
+- Script insert test users & admin
+
+🛠️ BACKOFFICE (ADMIN)
+- Page login admin
+- Authentification admin
+- Session admin
+- Déconnexion admin
+
+👤 FRONT OFFICE (UTILISATEUR)
+- Page inscription utilisateur
+- Page login utilisateur
+- Session utilisateur
+- Déconnexion utilisateur
+
+---
+
+👤 KINDY — CATÉGORIES & PRODUITS
+
+🗄️ BASE DE DONNÉES
+- Script create categories table
+- Script create produit table
+- Clés étrangères produit → user / catégorie
+- Script insert test categories & produits
+
+🛠️ BACKOFFICE (ADMIN)
+- CRUD catégories (liste, ajout, modification, suppression)
+- Associer produit à catégorie
+
+👤 FRONT OFFICE (UTILISATEUR)
+- Ajouter un objet
+- Modifier un objet
+- Supprimer un objet
+- Upload photos (1 ou plusieurs)
+- Page "Mes objets"
+
+---
+
+👤 FORY — ÉCHANGES & HISTORIQUE
+
+🗄️ BASE DE DONNÉES
+- Script create request table
+- Script create historique_produit table
+- Script insert test échanges
+
+🛠️ BACKOFFICE (ADMIN)
+- Page statistiques
+    - nombre utilisateurs
+    - nombre échanges acceptés
+
+👤 FRONT OFFICE (UTILISATEUR)
+- Liste objets des autres utilisateurs
+- Barre de recherche (titre, catégorie)
+- Fiche objet
+- Proposer un échange
+- Accepter / refuser échange
+- Historique public de l’objet
+
+---
+
+🔁 GIT — ORGANISATION
+
+- Branches recommandées :
+    main
+    feature-auth
+    feature-produit
+    feature-echange
+
+- Chaque participant travaille sur sa feature
+- Commit clair :
+    git add .
+    git commit -m "feat(scope): description"
+- Merge vers main quand stable
+- Pull avant de commencer chaque jour
+- Ne jamais travailler directement sur main
+
+---
+
+🏁 AVANTAGE
+
+- Tous les membres touchent base / backoffice / frontoffice
+- Contribution équilibrée
+- Moins de dépendances
+- Très bien vu par le professeur
